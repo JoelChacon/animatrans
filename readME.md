@@ -1,5 +1,4 @@
-This is a walkthrough a 3 different tutorials to showcase the power of CSS Animations and Transitions. 
-
+This is a walkthrough combining separate tutorials to showcase the power of CSS3 specifically animations and transitions. 
 
 
 Build a Teaser Page 
