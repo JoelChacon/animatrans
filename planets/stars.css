@@ -28,31 +28,8 @@ html, body {
   top: 40%;
   width: 200px;
   z-index: 2;
-  transform: rotate(45deg) translateX(250px) rotate(-45deg);
-  -webkit-animation: orbit2 4s linear infinite; /* Chrome, Safari 5 */
-   -moz-animation: orbit2 4s linear infinite; /* Firefox 5-15 */
-     -o-animation: orbit2 4s linear infinite; /* Opera 12+ */
-        animation: orbit2 4s linear infinite; /* Chrome, Firefox 16+,
-                                                 IE 10+, Safari 5 */
+  /*Autobots Transform! and animate if you're feeling up to it (you should be)*/
 
 }
 
-@-webkit-keyframes orbit2 {
-	from { 	-webkit-transform: rotate(0deg) translateX(250px) rotate(0deg); }
-	to   {  -webkit-transform: rotate(360deg) translateX(250px) rotate(-360deg); }
-}
-
-@-moz-keyframes orbit2 {
-	from { 	-moz-transform: rotate(0deg) translateX(350px) rotate(0deg); }
-	to   {  -moz-transform: rotate(360deg) translateX(350px) rotate(-360deg); }
-}
-
-@-o-keyframes orbit2 {
-	from { 	-o-transform: rotate(0deg) translateX(350px) rotate(0deg); }
-	to   {  -o-transform: rotate(360deg) translateX(350px) rotate(-360deg); }
-}
-
-@keyframes orbit2 {
-	from { 	transform: rotate(0deg) translateX(350px) rotate(0deg); }
-	to   {  transform: rotate(360deg) translateX(350px) rotate(-360deg); }
-}
+/*keyframes need we shall*/
