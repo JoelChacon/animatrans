@@ -59,7 +59,7 @@
 	border: 3px solid #fff;
 	border: 3px solid rgba(255,255,255,0.9);
     border-radius: 50%;
-    transition: background-color linear 0.1s;
+  /*Transition needed here*/
 }
 .sp-slideshow input:checked + label {
 	background-color: #fff;
@@ -93,7 +93,7 @@
 	cursor: pointer;
 	z-index: 1000;
 	background: transparent url(images/arrows.png) no-repeat;
-    transition: opacity linear 0.3s;
+  	/*Here we go again. Transition this*/
 }
 .sp-arrow:hover{
 	opacity: 1;
@@ -120,11 +120,11 @@
 }
 
 .sp-slideshow input:checked ~ .sp-content {
-    transition: background-position linear 0.6s, background-color linear 0.8s;
+    /*transition this*/
 }
 
 .sp-slideshow input:checked ~ .sp-content .sp-parallax-bg {
-    transition: background-position linear 0.7s;
+   /*transition this*/
 }
 
 input.sp-selector-1:checked ~ .sp-content {
@@ -180,7 +180,7 @@ input.sp-selector-5:checked ~ .sp-content .sp-parallax-bg {
 	list-style: none;
     margin: 0;
 	padding: 0;
-    transition: left ease-in 0.8s;
+  /*transition */
 }
 
 .sp-slider > li {
@@ -192,7 +192,7 @@ input.sp-selector-5:checked ~ .sp-content .sp-parallax-bg {
     float: left;
 	text-align: center;
 	opacity: 0.4;
-    transition: opacity ease-in 0.4s 0.8s;
+  /*transition*/
 }
 .sp-slider > li img{
 	box-sizing: border-box;
