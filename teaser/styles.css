@@ -36,7 +36,7 @@ p {
 p a {
     color: #fff;
     border-bottom: 2px solid #2da1ec;
-    /* Apply Transition to all changed properties over half a second with default transition-timing-function value*/
+    /* Apply Transition to all changed properties over 5 second duration with default transition-timing-function value*/
    }
 
 /*Need to specify when to perform color change transition HINT: Hover*/
