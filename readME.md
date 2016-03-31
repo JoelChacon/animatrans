@@ -1,8 +1,8 @@
 #Animatrans
 This is a walkthrough combining separate tutorials to showcase the power of CSS3 specifically animations and transitions. 
 ## Installation
-Clone this repository and follow the instructions below
-## Instructions
+Clone this repository and checkout to the startHere branch. Follow the readMe on that branch. 
+## Outcomes of Walkthrough
 ###Build a Teaser Page
 This teaser/landing page uses animate.css, reset.css, CSS:linear-gradient,transition, and pseudo-classes(hover,active). 
 ###Images... Images everywhere!
