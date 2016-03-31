@@ -14,4 +14,4 @@ This full screen slideshow background uses modernizr and CSS: animations.
 ###I want rotation and I want it now!
 This orbiting planet page showcases CSS animation and transform. 
 ###Parallax is so fetch...
-http://tympanus.net/codrops/2012/04/30/fluid-css3-slideshow-with-parallax-effect/
+This parallax slideshow uses CSS transitions 
