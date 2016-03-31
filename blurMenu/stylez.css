@@ -9,16 +9,12 @@
 }
 
 .bmenu li a{
-	color: transparent;
+	/*We need it blurry like a blurricane*/
 	display: block;
 	text-transform: uppercase;
-	text-shadow: 0px 0px 5px #fff;
+	/*Help with the blurriness! We need text-shadow!*/
 	letter-spacing: 1px;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
+  /*Stop!.... Transition time! BTW: You can touch this*/
 }
 
 .bmenu:hover li a{
